@@ -44,7 +44,7 @@
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="images/luolixuan_cut.JPG"><img style="width:100%;max-width:100%" alt="profile photo" src="images/luolixuan.JPG" class="hoverZoomLink"></a>
+              <a href="images/luolixuan.JPG"><img style="width:100%;max-width:100%" alt="profile photo" src="images/luolixuan_cut.JPG" class="hoverZoomLink"></a>
             </td>
           </tr>
         </tbody></table>
@@ -394,81 +394,7 @@
               <p>This system is the basis for "Portrait Mode" on the Google Pixel 2 smartphones</p>
             </td>
           </tr>
-
-          <tr onmouseout="aperture_stop()" onmouseover="aperture_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='aperture_image'><img src='images/aperture_after.jpg'></div>
-                <img src='images/aperture_before.jpg'>
-              </div>
-              <script type="text/javascript">
-                function aperture_start() {
-                  document.getElementById('aperture_image').style.opacity = "1";
-                }
-
-                function aperture_stop() {
-                  document.getElementById('aperture_image').style.opacity = "0";
-                }
-                aperture_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://drive.google.com/file/d/1MpvxcW7OTJP321QL_q4ZLQ8D653bZZzy/view?usp=sharing">
-                <papertitle>Aperture Supervision for Monocular Depth Estimation</papertitle>
-              </a>
-              <br>
-              <a href="https://people.eecs.berkeley.edu/~pratul/">Pratul P. Srinivasan</a>,
-              <a href="http://rahuldotgarg.appspot.com/">Rahul Garg</a>,
-              <a href="http://nealwadhwa.com">Neal Wadhwa</a>,
-              <a href="http://graphics.stanford.edu/~renng/">Ren Ng</a>,
-              <strong>Jonathan T. Barron</strong>
-              <br>
-              <em>CVPR</em>, 2018
-              <br>
-              <a href="https://github.com/google/aperture_supervision">code</a> /
-              <a href="data/Srinivasan2018.bib">bibtex</a>
-              <p></p>
-              <p>Varying a camera's aperture provides a supervisory signal that can teach a neural network to do monocular depth estimation.</p>
-            </td>
-          </tr>
-
-          <tr onmouseout="deepburst_stop()" onmouseover="deepburst_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='deepburst_image'><img src='images/deepburst_after.png'></div>
-                <img src='images/deepburst_before.png'>
-              </div>
-              <script type="text/javascript">
-                function deepburst_start() {
-                  document.getElementById('deepburst_image').style.opacity = "1";
-                }
-
-                function deepburst_stop() {
-                  document.getElementById('deepburst_image').style.opacity = "0";
-                }
-                deepburst_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://drive.google.com/file/d/1GAH8ijyZ7GnoBnQFANEzdXinHrE4vvXn/view?usp=sharing">
-                <papertitle>Burst Denoising with Kernel Prediction Networks</papertitle>
-              </a>
-              <br>
-              <a href="https://people.eecs.berkeley.edu/~bmild/">Ben Mildenhall</a>,
-              <strong>Jonathan T. Barron</strong>,
-              <a href="http://people.csail.mit.edu/jiawen/">Jiawen Chen</a>,
-              <a href="http://www.dsharlet.com/">Dillon Sharlet</a>,
-              <a href="http://graphics.stanford.edu/~renng/">Ren Ng</a>, Robert Carroll
-              <br>
-              <em>CVPR</em>, 2018 &nbsp <font color=#FF8080><strong>(Spotlight)</strong></font>
-              <br>
-              <a href="https://drive.google.com/file/d/1aqk3Q-L2spjLZh2yRWKUWIDcZkGjQ7US/view?usp=sharing">supplement</a> /
-              <a href="https://github.com/google/burst-denoising">code</a> /
-              <a href="data/Mildenhall2018.bib">bibtex</a>
-              <p></p>
-              <p>We train a network to predict linear kernels that denoise noisy bursts from cellphone cameras.</p>
-            </td>
-          </tr>
+          
 
           <tr onmouseout="friendly_stop()" onmouseover="friendly_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
