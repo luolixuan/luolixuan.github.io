@@ -1,3 +1,3 @@
 # luolixuan.github.io
-Person website template
-http://<your-github-username.github.io
+Personal website template
+http://luolixuan.github.io
